@@ -24,3 +24,10 @@ HBase 是一种分布式，可扩展，支持海量数据存储的 NoSQL 数据�
 * `Column Family` 列族，Hbase 通过列族划分数据的存储，列族下面可以包含任意多个列，实现灵活的数据存取。列族是由一个一个的列组成，在列数据为空时不会占用空间。Family 下面有多个 Qualifier，所以可以简单理解为，Hbase 中的列是二级列，其中 Family 为第一级列，Qualifier 为第二级列
 * `Column` Hbase 中每个列都由 Column Family(列族) 和 Column Qualifier(列限定符) 进行限定，例如 info: name, info: age。建表时只需指名列族，而列限定符不需要预先定义
 * `Time stamp` 时间戳，用于标识数据的版本。如果不指定，系统会自动加上此字段，值为写入 Hbase 的时间
+
+# 2. HBase 架构
+
+## 架构原理
+
+<img src="img/HBase_Architecture.jpg" style="zoom:100%;" />
+
