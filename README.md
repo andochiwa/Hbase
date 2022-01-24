@@ -29,5 +29,5 @@ HBase 是一种分布式，可扩展，支持海量数据存储的 NoSQL 数据�
 
 ## 架构原理
 
-<img src="img/HBase_Architecture.jpg" style="zoom:100%;" />
+<img src="img/HBase_Architecture.jpg" style="zoom:80%;" />
 
